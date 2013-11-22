@@ -1,0 +1,24 @@
+module ElasticSearch (
+  module ElasticSearch.Cluster,
+  module ElasticSearch.Cluster.Types,
+  module ElasticSearch.Document,
+  module ElasticSearch.Document.Types,
+  module ElasticSearch.Filter,
+  module ElasticSearch.Indices,
+  module ElasticSearch.Indices.Types,
+  module ElasticSearch.Query,
+  module ElasticSearch.Search,
+  module ElasticSearch.Search.Types,
+  module ElasticSearch.Types
+) where
+import ElasticSearch.Cluster
+import ElasticSearch.Cluster.Types
+import ElasticSearch.Document
+import ElasticSearch.Document.Types
+import ElasticSearch.Filter
+import ElasticSearch.Indices
+import ElasticSearch.Indices.Types
+import ElasticSearch.Query
+import ElasticSearch.Search
+import ElasticSearch.Search.Types
+import ElasticSearch.Types
